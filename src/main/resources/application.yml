@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          key-value: 'Fernando1818'
+  mvc:
+    converters:
+      preferred-json-mapper: gson
+server:
+  port: 9192
