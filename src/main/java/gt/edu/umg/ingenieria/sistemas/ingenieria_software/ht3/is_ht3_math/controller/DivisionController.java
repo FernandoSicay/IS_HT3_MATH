@@ -17,7 +17,7 @@ public class DivisionController {
     MathFactoryService mathFactoryService;
 
     @RequestMapping(value = "/div",method = RequestMethod.GET, produces = "application/json")
-    public ResponseDto div(@RequestHeader("Authorization") String token, HttpServletRequest request) {
+    public ResponseDto division(@RequestHeader("Authorization") String token, HttpServletRequest request) {
         System.out.println(token);
 
         IMathService mathService= mathFactoryService.getMathService("div",token);

@@ -1,6 +1,5 @@
 package gt.edu.umg.ingenieria.sistemas.ingenieria_software.ht3.is_ht3_math.model.dto;
 
-import org.springframework.stereotype.Component;
 
 public class ResponseFailDto  extends ResponseDto{
     public ResponseFailDto(int status,String message) {

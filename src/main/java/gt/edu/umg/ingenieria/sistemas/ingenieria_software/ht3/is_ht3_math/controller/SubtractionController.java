@@ -17,7 +17,7 @@ public class SubtractionController {
     MathFactoryService mathFactoryService;
 
     @RequestMapping(value = "/sub",method = RequestMethod.GET, produces = "application/json")
-    public ResponseDto div(@RequestHeader("Authorization") String token, HttpServletRequest request) {
+    public ResponseDto subtraction(@RequestHeader("Authorization") String token, HttpServletRequest request) {
         System.out.println(token);
 
         IMathService mathService= mathFactoryService.getMathService("sub",token);

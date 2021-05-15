@@ -1,6 +1,5 @@
 package gt.edu.umg.ingenieria.sistemas.ingenieria_software.ht3.is_ht3_math.exception;
 
-import gt.edu.umg.ingenieria.sistemas.ingenieria_software.ht3.is_ht3_math.model.service.security.JWTSecutiry;
 import io.jsonwebtoken.JwtException;
 import org.springframework.http.HttpStatus;
 

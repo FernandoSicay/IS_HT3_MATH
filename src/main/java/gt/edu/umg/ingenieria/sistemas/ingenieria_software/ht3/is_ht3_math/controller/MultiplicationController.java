@@ -17,7 +17,7 @@ public class MultiplicationController {
     MathFactoryService mathFactoryService;
 
     @RequestMapping(value = "/mult",method = RequestMethod.GET, produces = "application/json")
-    public ResponseDto div(@RequestHeader("Authorization") String token, HttpServletRequest request) {
+    public ResponseDto multiplication(@RequestHeader("Authorization") String token, HttpServletRequest request) {
         System.out.println(token);
 
         IMathService mathService= mathFactoryService.getMathService("mult",token);
